@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/c/demos/profiles-rest-api-2'
+PROJECT_BASE_PATH='/c/demos/profiles-rest-api-3'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate
